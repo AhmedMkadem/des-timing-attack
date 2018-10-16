@@ -1,8 +1,8 @@
-##des-timing-attack
+## des-timing-attack
 
 Timing attack against a weak software implementation of DES encryption alrogrithm
 
-##Usage
+## Usage
 
 After cloning the repository, compile the program:
 
@@ -19,11 +19,11 @@ Run the attack program that uses the timing measurments and the number of acquis
 `./ta ta.dat 100000`
 
 
-##Proof-of-concept
+## Proof-of-concept
 
 **ta.c** is my timing attack program. It extracts the final round key given the timing measurment file and the number of experiments. 
 
-##Lab files
+## Lab files
 
 des Data Encryption Standard algorithm implementation library
 
