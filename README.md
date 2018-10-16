@@ -25,10 +25,10 @@ Run the attack program that uses the timing measurments and the number of acquis
 
 ## Lab files
 
-des Data Encryption Standard algorithm implementation library
+**des** Data Encryption Standard algorithm implementation library
 
-km library, to manage the partial knowledge about a DES secret key
+**km** library, to manage the partial knowledge about a DES secret key
 
-ta_acquisition generates a ta.dat file containing a pair of cipher/exectime and a ta.key contianing the secret key and the 16 rounds keys
+**ta_acquisition** generates a ta.dat file containing a pair of cipher/exectime and a ta.key contianing the secret key and the 16 rounds keys
 
-ta.dat containing the 100000 ciphertexts and timing measurements.
+**ta.dat** containing the 100000 ciphertexts and timing measurements.
